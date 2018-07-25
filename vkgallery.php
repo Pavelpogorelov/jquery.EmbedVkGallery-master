@@ -2,7 +2,7 @@
 
 require_once('./vendor/autoload.php');
 
-define('TOKEN', 'тут_ваш_сервис_токен_из_vk.com');
+define('TOKEN', '86529292f5c1c666f4899193a83ac143876cd717b308a085799e66bca4cb109cc086dd776d20986092c71');
 $_GET['access_token'] = TOKEN;
 $params = http_build_query($_GET);
 $url = 'https://api.vk.com/method/photos.get?&' . $params;
